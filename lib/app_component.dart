@@ -16,8 +16,8 @@ import 'package:ngdart_app_courses/src/utils/routes.dart';
     templateUrl: 'app_component.html',
     directives: [
       routerDirectives,
-      MaterialIconComponent,
       AppHeader,
+      MaterialIconComponent,
     ],
     exports: [RoutePaths, Routes])
 class AppComponent {
