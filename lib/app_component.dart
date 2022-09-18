@@ -1,6 +1,7 @@
 import 'package:angular/angular.dart';
 import 'package:angular_router/angular_router.dart';
 import 'package:ngcomponents/angular_components.dart';
+import 'package:ngdart_app_courses/src/components/footer/footer_component.dart';
 import 'package:ngdart_app_courses/src/components/header/header_component.dart';
 import 'package:ngdart_app_courses/src/utils/routes.dart';
 
@@ -17,6 +18,7 @@ import 'package:ngdart_app_courses/src/utils/routes.dart';
     directives: [
       routerDirectives,
       AppHeader,
+      FooterComponent,
       MaterialIconComponent,
     ],
     exports: [RoutePaths, Routes])
