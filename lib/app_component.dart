@@ -1,9 +1,8 @@
 import 'package:angular/angular.dart';
 import 'package:angular_router/angular_router.dart';
 import 'package:ngcomponents/angular_components.dart';
-// import 'package:ngdart_app_courses/src/components/courses/courses_componet.dart';
 import 'package:ngdart_app_courses/src/components/header/header_component.dart';
-import 'package:ngdart_app_courses/src/utils/route_paths.dart';
+import 'package:ngdart_app_courses/src/utils/routes.dart';
 
 // AngularDart info: https://angulardart.xyz
 // Components info: https://angulardart.xyz/components
@@ -20,7 +19,7 @@ import 'package:ngdart_app_courses/src/utils/route_paths.dart';
       MaterialIconComponent,
       AppHeader,
     ],
-    exports: [RoutePaths, RoutePath])
+    exports: [RoutePaths, Routes])
 class AppComponent {
   // Nothing here yet. All logic is in TodoListComponent.
 }
