@@ -34,6 +34,18 @@ class CoursesComponent {
       ['JS', 'Programming'],
       DateTime.now().toIso8601String(),
     ),
+    Course(
+      '113',
+      'AngularDart: the complete course',
+      'Coderew',
+      29.99,
+      'Full Course',
+      8,
+      'assets/images/3.png',
+      ['Lect1', 'Lect2', 'Lect3'],
+      ['NG', 'Programming'],
+      DateTime.now().toIso8601String(),
+    ),
   ];
 
   void deleteItem(String uid) {
